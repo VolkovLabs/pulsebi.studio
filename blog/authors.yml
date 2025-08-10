@@ -1,0 +1,37 @@
+# Team members configuration for Volkov Labs and affiliates
+# Each entry includes name, title, image, page flag, and social media links
+
+mikhail:
+  name: Mikhail Volkov
+  title: Founder at Volkov Labs, Grafana Champion
+  image_url: /img/team/mikhail.png
+  page: true
+  socials:
+    github: VolkovLabs
+    x: VolkovLabs
+
+daria:
+  name: Daria Volkova
+  title: Co-Founder at Volkov Labs, Grafana Champion
+  image_url: /img/team/daria.png
+  page: true
+  socials:
+    youtube: https://youtube.com/@VolkovLabs
+    github: VolkovLabs
+    x: VolkovLabs
+
+alex:
+  name: Alex Simonok
+  title: Director of Engineering at Volkov Labs
+  image_url: /img/team/alex.png
+  page: true
+  socials:
+    github: asimonok
+
+mulasevich:
+  name: Mikhail Ulasevich
+  title: Enterprise Engineer at Volkov Labs
+  image_url: /img/team/mulasevich.png
+  page: true
+  socials:
+    github: Mikenginee

@@ -1,0 +1,259 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary-lightest: #e4d8fd;
+  --ifm-color-primary-lighter: #c1a4fb;
+  --ifm-color-primary-light: #b593fa;
+  --ifm-color-primary: #9d70f9;
+  --ifm-color-primary-dark: #854df8;
+  --ifm-color-primary-darker: #793cf7;
+  --ifm-color-primary-darkest: #560af3;
+  --ifm-font-size-base: 18px;
+}
+
+[data-theme="light"] .hero--primary {
+  --ifm-hero-background-color: var(--ifm-color-emphasis-100);
+  color: #111;
+}
+
+[data-theme="dark"] .hero--primary {
+  --ifm-hero-background-color: var(--ifm-color-emphasis-100);
+  color: #eee;
+}
+
+.hero--primary--2rem {
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.header-github-link:hover {
+  opacity: 0.6;
+}
+
+.header-github-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/index/github.svg") no-repeat;
+}
+
+[data-theme="dark"] .header-github-link::before {
+  background: url("/static/img/index/github.dark.svg") no-repeat;
+}
+
+/* Icons */
+
+.header-link {
+  display: flex;
+  align-items: center;
+}
+
+.footer-link {
+  color: var(--ifm-footer-link-color);
+  line-height: 2;
+  display: flex;
+  align-items: center;
+}
+
+/* BI(G) */
+
+.icon-alerting-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/docs/business-alerting/logo.svg") no-repeat;
+  margin-right: 0.5rem;
+}
+
+[data-theme="dark"] .icon-alerting-link::before {
+  background: url("/static/img/docs/business-alerting/logo.dark.svg") no-repeat;
+}
+
+.icon-engine-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/docs/business-engine/logo.svg") no-repeat;
+  margin-right: 0.5rem;
+}
+
+[data-theme="dark"] .icon-engine-link::before {
+  background: url("/static/img/docs/business-engine/logo.dark.svg") no-repeat;
+}
+
+.icon-studio-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/docs/business-studio/logo.svg") no-repeat;
+  margin-right: 0.5rem;
+}
+
+[data-theme="dark"] .icon-studio-link::before {
+  background: url("/static/img/docs/business-studio/logo.dark.svg") no-repeat;
+}
+
+.icon-quick-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/docs/quick-start/logo.svg") no-repeat;
+  margin-right: 0.5rem;
+}
+
+[data-theme="dark"] .icon-quick-link::before {
+  background: url("/static/img/docs/quick-start/logo.dark.svg") no-repeat;
+}
+
+.icon-release-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/docs/release/logo.svg") no-repeat;
+  margin-right: 0.5rem;
+}
+
+[data-theme="dark"] .icon-release-link::before {
+  background: url("/static/img/docs/release/logo.dark.svg") no-repeat;
+}
+
+.icon-tutorials-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/docs/tutorials/logo.svg") no-repeat;
+  margin-right: 0.5rem;
+}
+
+[data-theme="dark"] .icon-tutorials-link::before {
+  background: url("/static/img/docs/tutorials/logo.dark.svg") no-repeat;
+}
+
+.icon-pricing-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/index/pricing.svg") no-repeat;
+  margin-right: 0.5rem;
+}
+
+[data-theme="dark"] .icon-pricing-link::before {
+  background: url("/static/img/index/pricing.dark.svg") no-repeat;
+}
+
+/* Platform */
+
+.icon-github-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/index/github.svg") no-repeat;
+  margin-right: 0.5rem;
+}
+
+[data-theme="dark"] .icon-github-link::before {
+  background: url("/static/img/index/github.dark.svg") no-repeat;
+}
+
+.icon-team-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/team/logo.svg") no-repeat;
+  margin-right: 0.5rem;
+}
+
+.icon-blog-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/index/blog.svg") no-repeat;
+  margin-right: 0.5rem;
+}
+
+[data-theme="dark"] .icon-blog-link::before {
+  background: url("/static/img/index/blog.dark.svg") no-repeat;
+}
+
+.icon-support-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/index/support.svg") no-repeat;
+  margin-right: 0.5rem;
+}
+
+.icon-privacy-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/index/privacy.svg") no-repeat;
+  margin-right: 0.5rem;
+}
+
+.icon-terms-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/index/terms.svg") no-repeat;
+  margin-right: 0.5rem;
+}
+
+.icon-disclaimer-link::before {
+  content: "";
+  width: 24px;
+  height: 24px;
+  display: flex;
+  background: url("/static/img/index/disclaimer.svg") no-repeat;
+  margin-right: 0.5rem;
+}
+
+table {
+  display: table;
+  width: 100%;
+  font-size: 14px;
+}
+
+.questionsDiv {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.questions {
+  border-radius: 5px;
+  max-width: 80%;
+}
+
+[data-theme="light"] .questions:hover {
+  box-shadow: 0 2px 5px 2px var(--ifm-color-gray-200);
+}
+
+[data-theme="dark"] .questions:hover {
+  box-shadow: 0 2px 5px 2px var(--ifm-color-gray-1000);
+}

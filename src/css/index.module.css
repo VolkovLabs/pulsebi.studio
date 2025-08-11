@@ -33,14 +33,6 @@
 }
 
 /**
- * SVG
- */
-.pluginSvg {
-  height: 150px;
-  width: 150px;
-}
-
-/**
  * Button
  */
 .getStarted {
@@ -53,26 +45,6 @@
 
 .getStarted:hover {
   transform: scale(1.05);
-}
-
-/**
- * Why inside the Box
- */
-.whyBox {
-  padding: 0;
-  border-radius: 10px 10px 10px 10px;
-}
-
-[data-theme="light"] .whyBox {
-  border: 2px solid var(--ifm-color-black);
-}
-
-[data-theme="dark"] .whyBox {
-  border: 2px solid var(--ifm-color-white);
-}
-
-.whyBox img {
-  height: 100%;
 }
 
 /**

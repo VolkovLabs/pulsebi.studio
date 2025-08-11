@@ -79,6 +79,10 @@
   margin-right: 0.5rem;
 }
 
+.footer-link.icon-alerting-link::before {
+  background: url("/static/img/docs/business-alerting/logo.dark.svg") no-repeat;
+}
+
 [data-theme="dark"] .icon-alerting-link::before {
   background: url("/static/img/docs/business-alerting/logo.dark.svg") no-repeat;
 }
@@ -90,6 +94,10 @@
   display: flex;
   background: url("/static/img/docs/business-engine/logo.svg") no-repeat;
   margin-right: 0.5rem;
+}
+
+.footer-link.icon-engine-link::before {
+  background: url("/static/img/docs/business-engine/logo.dark.svg") no-repeat;
 }
 
 [data-theme="dark"] .icon-engine-link::before {
@@ -105,6 +113,10 @@
   margin-right: 0.5rem;
 }
 
+.footer-link.icon-studio-link::before {
+  background: url("/static/img/docs/business-studio/logo.dark.svg") no-repeat;
+}
+
 [data-theme="dark"] .icon-studio-link::before {
   background: url("/static/img/docs/business-studio/logo.dark.svg") no-repeat;
 }
@@ -118,6 +130,10 @@
   margin-right: 0.5rem;
 }
 
+.footer-link.icon-quick-link::before {
+  background: url("/static/img/docs/quick-start/logo.dark.svg") no-repeat;
+}
+
 [data-theme="dark"] .icon-quick-link::before {
   background: url("/static/img/docs/quick-start/logo.dark.svg") no-repeat;
 }
@@ -129,6 +145,10 @@
   display: flex;
   background: url("/static/img/docs/release/logo.svg") no-repeat;
   margin-right: 0.5rem;
+}
+
+.footer-link.icon-release-link::before {
+  background: url("/static/img/docs/release/logo.dark.svg") no-repeat;
 }
 
 [data-theme="dark"] .icon-release-link::before {

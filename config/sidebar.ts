@@ -2,23 +2,23 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 /**
  * Sidebar configuration for Docusaurus.
- * Defines the navigation structure for the 'big' documentation section.
+ * Defines the navigation structure for the documentation section.
  */
 const sidebars: SidebarsConfig = {
-  big: [
+  pulsebi: [
     // Business Intelligence section
     {
       type: "category",
-      label: "Business Intelligence",
+      label: "PulseBI Platform",
       collapsible: false, // Always expanded
       link: { type: "doc", id: "index" }, // Links to main BI doc
       items: ["quick-start", "personas"],
     },
 
-    // Business Studio section
+    // PulseBI Studio section
     {
       type: "category",
-      label: "Business Studio",
+      label: "PulseBI Studio",
       collapsible: false,
       link: { type: "doc", id: "studio/index" }, // Links to main Studio doc
       items: [
@@ -38,10 +38,10 @@ const sidebars: SidebarsConfig = {
       ],
     },
 
-    // Business Engine section
+    // PulseBI Engine section
     {
       type: "category",
-      label: "Business Engine",
+      label: "PulseBI Engine",
       collapsible: false,
       link: { type: "doc", id: "engine/index" }, // Links to main Engine doc
       items: [
@@ -52,10 +52,10 @@ const sidebars: SidebarsConfig = {
       ],
     },
 
-    // Business Alerting section
+    // PulseBI Alerting section
     {
       type: "category",
-      label: "Business Alerting",
+      label: "PulseBI Alerting",
       collapsible: false,
       link: { type: "doc", id: "alerting/index" }, // Links to main Alerting doc
       items: [

@@ -38,8 +38,8 @@
 .getStarted {
   border-radius: 10px 10px 10px 10px;
   color: var(--ifm-color-white);
-  border-color: #ff5656;
-  background-color: #ff5656;
+  border-color: #208bb6;
+  background-color: #208bb6;
   transition: transform 0.3s ease-in-out;
 }
 

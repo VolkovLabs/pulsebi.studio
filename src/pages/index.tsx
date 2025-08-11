@@ -67,6 +67,37 @@ const Main = ({ siteConfig }) => (
         <Intelligence />
       </div>
     </section>
+
+    <section className="hero hero--primary">
+      <div className="container margin-vert--md">
+        <div className="row align-items-center">
+          <div className="col">
+            <h2 className={clsx("hero__title")}>PulseBI Studio</h2>
+            <p className="hero__subtitle margin-vert--md">
+              PulseBI Studio is the management hub for configuring the
+              platform’s analytics capabilities.
+            </p>
+            <p className="hero__subtitle margin-vert--md">
+              It enables users to manage PulseBI Engine settings, create alert
+              rules for PulseBI Alert, and generate reports for PulseBI Report,
+              streamlining analytics workflows.
+            </p>
+            <div className="margin-vert--lg">
+              <a
+                className={clsx(
+                  "button button--primary button--lg",
+                  styles.getStarted
+                )}
+                href="https://github.com/VolkovLabs/pulsebi-platform/releases"
+                aria-label="Download the latest release"
+              >
+                Downloads →
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 );
 

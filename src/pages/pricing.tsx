@@ -69,8 +69,8 @@ const Main = () => (
           <div className="col col--5 text--center">
             <ThemedImage
               sources={{
-                light: useBaseUrl("/img/index/support.svg"),
-                dark: useBaseUrl("/img/index/support.dark.svg"),
+                light: useBaseUrl("/img/index/support.dark.svg"),
+                dark: useBaseUrl("/img/index/support.svg"),
               }}
               width="50%"
               className={styles.headerImage}

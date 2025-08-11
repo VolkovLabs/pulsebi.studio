@@ -17,7 +17,7 @@ export const FOOTER = {
   // Link columns for navigation
   links: [
     {
-      title: "PulseBI Platform",
+      title: "Product",
       items: [
         {
           label: "Quick Start",
@@ -42,7 +42,7 @@ export const FOOTER = {
       ],
     },
     {
-      title: "Modules",
+      title: "PulseBI Platform",
       items: [
         {
           label: "PulseBI Studio",

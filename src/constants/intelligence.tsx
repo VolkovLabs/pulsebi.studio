@@ -6,11 +6,11 @@ import { PluginItem } from "../types";
  */
 export const IntelligenceList: PluginItem[] = [
   {
-    title: "User-Friendly Business Studio",
+    title: "User-Friendly PulseBI Studio",
     name: "business-studio",
     description: (
       <>
-        Simplifies Business Engine management, enabling non-technical users to
+        Simplifies PulseBI Engine management, enabling non-technical users to
         configure, monitor, and maintain data workflows effortlessly.
       </>
     ),
@@ -18,7 +18,7 @@ export const IntelligenceList: PluginItem[] = [
     isActive: true,
   },
   {
-    title: "High-Performance Business Engine",
+    title: "High-Performance PulseBI Engine",
     name: "business-engine",
     description: (
       <>
@@ -31,7 +31,7 @@ export const IntelligenceList: PluginItem[] = [
     isActive: true, // Optional: Indicates active status
   },
   {
-    title: "Load-Balanced Business Alerting",
+    title: "Load-Balanced PulseBI Alerting",
     name: "business-alerting",
     description: (
       <>

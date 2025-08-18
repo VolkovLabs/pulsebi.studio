@@ -44,7 +44,7 @@ export const NAVBAR = {
       className: "header-link icon-blog-link",
     },
     {
-      to: "https://github.com/VolkovLabs/pulsebi-platform",
+      to: "https://github.com/VolkovLabs/pulsebi",
       position: "right",
       className: "header-link header-github-link",
     },

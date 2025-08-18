@@ -1,38 +1,4 @@
 /**
- * Features
- */
-.featureItem {
-  border-radius: 10px 10px 10px 10px;
-  padding: 1rem;
-}
-
-[data-theme="light"] .featureItem {
-  border: 2px solid transparent;
-}
-
-[data-theme="dark"] .featureItem {
-  border: 2px solid transparent;
-}
-
-[data-theme="light"] .featureItem:hover {
-  border: 2px solid var(--ifm-color-black);
-}
-
-[data-theme="dark"] .featureItem:hover {
-  border: 2px solid var(--ifm-color-white);
-}
-
-[data-theme="light"] .featureItem a,
-[data-theme="light"] .featureItem a:hover {
-  color: var(--ifm-color-gray-1000);
-}
-
-[data-theme="dark"] .featureItem a,
-[data-theme="dark"] .featureItem a:hover {
-  color: var(--ifm-color-gray-100);
-}
-
-/**
  * Button
  */
 .getStarted {
@@ -72,40 +38,24 @@
   padding-right: 20px;
 }
 
-.plugin {
-  margin: 0 auto;
-  border-radius: 10px;
-  width: 500px;
-  height: 320px;
-  object-fit: fill;
-}
-
-[data-theme="light"] .plugin {
-  box-shadow: 0 5px 15px 5px var(--ifm-color-gray-600);
-}
-
-[data-theme="dark"] .plugin {
-  box-shadow: 0 5px 15px 5px var(--ifm-color-gray-1000);
-}
-
 /**
  * Business Intelligence Image
  */
-.big {
+.studio {
   display: block;
   border-radius: 10px;
 }
 
-[data-theme="light"] .big {
+[data-theme="light"] .studio {
   box-shadow: 0 5px 15px 5px var(--ifm-color-gray-600);
 }
 
-[data-theme="dark"] .big {
+[data-theme="dark"] .studio {
   box-shadow: 0 5px 15px 5px var(--ifm-color-gray-1000);
 }
 
 .headerImage,
-.big {
+.studio {
   transition: opacity 0.5s ease-in-out;
   opacity: 0;
   animation: fadeIn 0.5s forwards;

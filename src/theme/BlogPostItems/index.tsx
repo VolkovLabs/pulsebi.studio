@@ -12,7 +12,7 @@ const Hero = () => (
     <div className="container">
       <div className="row">
         <div className="col">
-          <h1 className="hero__title margin-bottom--md">PulseBI Analytics</h1>
+          <h1 className="hero__title margin-bottom--md">Blog</h1>
           <p className="hero__subtitle margin-vert--md">
             Forge Your Future with PulseBI Analytics.
           </p>

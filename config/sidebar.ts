@@ -55,7 +55,7 @@ const sidebars: SidebarsConfig = {
     // PulseBI Alerting section
     {
       type: "category",
-      label: "PulseBI Alerting",
+      label: "PulseBI Alert",
       collapsible: false,
       link: { type: "doc", id: "alerting/index" }, // Links to main Alerting doc
       items: [

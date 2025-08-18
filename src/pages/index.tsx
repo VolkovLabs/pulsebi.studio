@@ -136,7 +136,7 @@ const Main = ({ siteConfig }) => (
               dark: useBaseUrl("/img/docs/business-studio.dark.gif"),
             }}
             alt={siteConfig.tagline}
-            className={styles.big}
+            className={styles.studio}
           />
         </a>
       </p>

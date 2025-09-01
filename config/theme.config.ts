@@ -11,7 +11,7 @@ import type { ThemeConfig } from "@docusaurus/types";
 export const THEME_CONFIG: ThemeConfig = {
   // Color mode settings
   colorMode: {
-    defaultMode: "light", // Default to light mode
+    defaultMode: "dark",
     disableSwitch: false, // Enable theme toggle switch
     respectPrefersColorScheme: true, // Respect user's system color preference
   },
@@ -27,7 +27,7 @@ export const THEME_CONFIG: ThemeConfig = {
   metadata: [
     {
       name: "keywords",
-      content: "pulsebi, business intelligence", // Keywords for search engines
+      content: "pulsebi, grafana, business intelligence", // Keywords for search engines
     },
   ],
 

@@ -9,7 +9,6 @@ import styles from "../css/index.module.css";
 
 /**
  * Header Component
- * Showcases Business Suite intro and plugins
  */
 const Header = ({ siteConfig }) => (
   <header>
@@ -56,48 +55,60 @@ const Header = ({ siteConfig }) => (
 
         {/* Logo cloud */}
         <div className="mx-auto grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-6">
-          <img
-            alt="PulseBI Studio"
-            src="/img/docs/business-studio/logo.dark.svg"
-            width={158}
-            height={48}
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-          />
-          <img
-            alt="PulseBI Engine"
-            src="/img/docs/business-engine/logo.dark.svg"
-            width={158}
-            height={48}
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-          />
-          <img
-            alt="PulseBI Alert"
-            src="/img/docs/business-alerting/logo.dark.svg"
-            width={158}
-            height={48}
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-          />
-          <img
-            alt="PulseBI Chronicles"
-            src="/img/docs/chronicles/logo.dark.svg"
-            width={158}
-            height={48}
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-          />
-          <img
-            alt="PulseBI Sphere"
-            src="/img/docs/sphere/logo.dark.svg"
-            width={158}
-            height={48}
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-          />
-          <img
-            alt="PulseBI Insight"
-            src="/img/docs/insight/logo.dark.svg"
-            width={158}
-            height={48}
-            className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-          />
+          <a href="#pulsebi-studio">
+            <img
+              alt="PulseBI Studio"
+              src="/img/docs/business-studio/logo.dark.svg"
+              width={158}
+              height={48}
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            />
+          </a>
+          <a href="#pulsebi-engine">
+            <img
+              alt="PulseBI Engine"
+              src="/img/docs/business-engine/logo.dark.svg"
+              width={158}
+              height={48}
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            />
+          </a>
+          <a href="#pulsebi-alert">
+            <img
+              alt="PulseBI Alert"
+              src="/img/docs/business-alerting/logo.dark.svg"
+              width={158}
+              height={48}
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            />
+          </a>
+          <a href="#pulsebi-chronicles">
+            <img
+              alt="PulseBI Chronicles"
+              src="/img/docs/chronicles/logo.dark.svg"
+              width={158}
+              height={48}
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            />
+          </a>
+          <a href="#pulsebi-insight">
+            <img
+              alt="PulseBI Insight"
+              src="/img/docs/insight/logo.dark.svg"
+              width={158}
+              height={48}
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            />
+          </a>
+          <a href="#pulsebi-sphere">
+            <img
+              alt="PulseBI Sphere"
+              src="/img/docs/sphere/logo.dark.svg"
+              width={158}
+              height={48}
+              className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
+            />
+          </a>
         </div>
       </div>
       <div
@@ -122,7 +133,10 @@ const Header = ({ siteConfig }) => (
  */
 const Main = ({ siteConfig }) => (
   <main>
-    <section className="container margin-vert--xl text--center">
+    <section
+      className="container margin-vert--xl text--center"
+      id="pulsebi-studio"
+    >
       <h2 className="hero__title">Manage Your Analytics Core</h2>
       <p className="hero__subtitle margin-vert--md">
         PulseBI Studio is the management hub for configuring the platform’s
@@ -140,6 +154,159 @@ const Main = ({ siteConfig }) => (
           />
         </a>
       </p>
+      <p className="hero__subtitle margin-vert--md">
+        It enables users to manage PulseBI Engine settings, create alert rules
+        for PulseBI Alert, and generate reports for PulseBI Chronicles,
+        streamlining analytics workflows.
+      </p>
+    </section>
+    <section className="hero hero--primary" id="pulsebi-engine">
+      <div className="container margin-vert--md">
+        <div className="row align-items-center">
+          <div className="col col--7">
+            <h2 className={clsx("hero__title")}>PulseBI Engine</h2>
+            <p className="hero__subtitle margin-vert--md">
+              The PulseBI Engine is the heart of the platform, powering
+              real-time data processing and query execution for all components.
+            </p>
+            <p className="hero__subtitle margin-vert--md">
+              It connects seamlessly to Grafana’s data sources, ensuring
+              high-performance analytics.
+            </p>
+          </div>
+          <div className="col col--5 text--center">
+            <a href="/blog/">
+              <ThemedImage
+                sources={{
+                  light: useBaseUrl("/img/docs/business-engine/logo.svg"),
+                  dark: useBaseUrl("/img/docs/business-engine/logo.dark.svg"),
+                }}
+                width="50%"
+                className={styles.headerImage}
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className="hero" id="pulsebi-alert">
+      <div className="container margin-vert--md">
+        <div className="row align-items-center">
+          <div className="col col--5 text--center">
+            <a href="/blog/">
+              <ThemedImage
+                sources={{
+                  light: useBaseUrl("/img/docs/business-alerting/logo.svg"),
+                  dark: useBaseUrl("/img/docs/business-alerting/logo.dark.svg"),
+                }}
+                width="50%"
+                className={styles.headerImage}
+              />
+            </a>
+          </div>
+          <div className="col col--7">
+            <h2 className={clsx("hero__title")}>PulseBI Alert</h2>
+            <p className="hero__subtitle margin-vert--md">
+              PulseBI Alert delivers real-time notifications to keep teams
+              responsive to critical data events.
+            </p>
+            <p className="hero__subtitle margin-vert--md">
+              Configured via PulseBI Studio, it sends query-based alerts with
+              Grafana panel screenshots through channels like Slack, email,
+              Grafana Incident, or KeepHQ.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className="hero hero--primary" id="pulsebi-chronicles">
+      <div className="container margin-vert--md">
+        <div className="row align-items-center">
+          <div className="col col--7">
+            <h2 className={clsx("hero__title")}>PulseBI Chronicles</h2>
+            <p className="hero__subtitle margin-vert--md">
+              PulseBI Chronicles transforms data into compelling narratives.
+            </p>
+            <p className="hero__subtitle margin-vert--md">
+              Managed through PulseBI Studio, it generates interactive reports
+              with embedded Grafana visualizations, offering automated delivery
+              and storytelling tools.
+            </p>
+          </div>
+          <div className="col col--5 text--center">
+            <a href="/blog/">
+              <ThemedImage
+                sources={{
+                  light: useBaseUrl("/img/docs/chronicles/logo.svg"),
+                  dark: useBaseUrl("/img/docs/chronicles/logo.dark.svg"),
+                }}
+                width="50%"
+                className={styles.headerImage}
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className="hero" id="pulsebi-insight">
+      <div className="container margin-vert--md">
+        <div className="row align-items-center">
+          <div className="col col--5 text--center">
+            <a href="/blog/">
+              <ThemedImage
+                sources={{
+                  light: useBaseUrl("/img/docs/insight/logo.svg"),
+                  dark: useBaseUrl("/img/docs/insight/logo.dark.svg"),
+                }}
+                width="50%"
+                className={styles.headerImage}
+              />
+            </a>
+          </div>
+          <div className="col col--7">
+            <h2 className={clsx("hero__title")}>PulseBI Insight</h2>
+            <p className="hero__subtitle margin-vert--md">
+              PulseBI Insight brings AI-driven intelligence to the platform,
+              leveraging LLM models from xAI and Anthropic to deliver
+              descriptive analytics and conversational queries.
+            </p>
+            <p className="hero__subtitle margin-vert--md">
+              It supports natural language questions and automated insights for
+              alerts and reports.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section className="hero hero--primary" id="pulsebi-sphere">
+      <div className="container margin-vert--md">
+        <div className="row align-items-center">
+          <div className="col col--7">
+            <h2 className={clsx("hero__title")}>PulseBI Sphere</h2>
+            <p className="hero__subtitle margin-vert--md">
+              A centralized hub for real-time monitoring and collaborative
+              decision-making.
+            </p>
+            <p className="hero__subtitle margin-vert--md">
+              It integrates Grafana dashboards, PulseBI Alert notifications,
+              PulseBI Insight descriptive insights, and PulseBI Engine data for
+              a unified analytics experience.
+            </p>
+          </div>
+          <div className="col col--5 text--center">
+            <a href="/blog/">
+              <ThemedImage
+                sources={{
+                  light: useBaseUrl("/img/docs/sphere/logo.svg"),
+                  dark: useBaseUrl("/img/docs/sphere/logo.dark.svg"),
+                }}
+                width="50%"
+                className={styles.headerImage}
+              />
+            </a>
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 );

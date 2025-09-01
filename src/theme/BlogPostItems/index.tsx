@@ -12,9 +12,14 @@ const Hero = () => (
     <div className="container">
       <div className="row">
         <div className="col">
-          <h1 className="hero__title margin-bottom--md">Blog</h1>
+          <h1 className="hero__title margin-bottom--md">
+            Forge Your Future with PulseBI Analytics
+          </h1>
           <p className="hero__subtitle margin-vert--md">
-            Forge Your Future with PulseBI Analytics.
+            Dive into the world of data-driven insights with the PulseBI Blog.
+            Explore expert articles, industry trends, and actionable tips on
+            leveraging analytics to transform your business. Stay ahead with the
+            latest updates and strategies tailored for success.
           </p>
         </div>
       </div>

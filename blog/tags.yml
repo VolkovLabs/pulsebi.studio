@@ -1,2 +1,17 @@
-Platform:
+Alert:
+  description: PulseBI Alert delivers real-time notifications to keep teams responsive to critical data events. Configured via PulseBI Studio, it sends query-based alerts with Grafana panel screenshots through channels like Slack, email, or Teams.
+
+Chronicles:
+  description: PulseBI Chronicles transforms data into compelling narratives. Managed through PulseBI Studio, it generates interactive reports with embedded Grafana visualizations, offering automated PDF delivery and storytelling tools.
+
+Engine:
+  description: The PulseBI Engine is the heart of the platform, powering real-time data processing and query execution for all components. It connects seamlessly to Grafana’s data sources, ensuring high-performance analytics.
+
+Insight:
+  description: PulseBI Insight brings AI-driven intelligence to the platform, leveraging LLM models from xAI and Anthropic to deliver descriptive analytics and conversational queries. It supports natural language questions and automated insights for alerts and reports.
+
+Release Notes:
   description: Transform your insights with high-performance, scalable, and alert-driven analytics.
+
+Studio:
+  description: PulseBI Studio is the management hub for configuring the platform’s analytics capabilities. It enables users to manage PulseBI Engine settings, create alert rules for PulseBI Alert, and generate reports for PulseBI Report, streamlining analytics workflows.

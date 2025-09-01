@@ -21,30 +21,7 @@ const Header = () => (
             Transform your analytics with the Business Intelligence platform for
             high-performance, scalable, and alert-driven insights in Grafana.
           </p>
-          <div className="margin-vert--lg">
-            <script
-              async
-              src="https://js.stripe.com/v3/pricing-table.js"
-            ></script>
-            <stripe-pricing-table
-              pricing-table-id="prctbl_1RdhO9Eiej5nUsojctbZydKh"
-              publishable-key="pk_live_51Q1pMcEiej5nUsojvz6cu1k1QH1R5mAHwWz1OotLIAh9qaQiXa70MjggtWr2bsmPqmUIZ6x5b7W9I6VD8QCE4ZxK00GBzofXYZ"
-            ></stripe-pricing-table>
-          </div>
         </div>
-      </div>
-      <div className="margin-vert--lg">
-        <a
-          className={clsx(
-            "button button--primary button--lg",
-            styles.getStarted
-          )}
-          href="https://pay.volkovlabs.io/p/login/6oEaGicwRgZ8gko144"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Partner Portal →
-        </a>
       </div>
     </div>
   </header>

@@ -175,16 +175,14 @@ const Main = ({ siteConfig }) => (
             </p>
           </div>
           <div className="col col--5 text--center">
-            <a href="/blog/">
-              <ThemedImage
-                sources={{
-                  light: useBaseUrl("/img/docs/business-engine/logo.svg"),
-                  dark: useBaseUrl("/img/docs/business-engine/logo.dark.svg"),
-                }}
-                width="50%"
-                className={styles.headerImage}
-              />
-            </a>
+            <ThemedImage
+              sources={{
+                light: useBaseUrl("/img/docs/business-engine/logo.svg"),
+                dark: useBaseUrl("/img/docs/business-engine/logo.dark.svg"),
+              }}
+              width="50%"
+              className={styles.headerImage}
+            />
           </div>
         </div>
       </div>
@@ -193,16 +191,14 @@ const Main = ({ siteConfig }) => (
       <div className="container margin-vert--md">
         <div className="row align-items-center">
           <div className="col col--5 text--center">
-            <a href="/blog/">
-              <ThemedImage
-                sources={{
-                  light: useBaseUrl("/img/docs/business-alerting/logo.svg"),
-                  dark: useBaseUrl("/img/docs/business-alerting/logo.dark.svg"),
-                }}
-                width="50%"
-                className={styles.headerImage}
-              />
-            </a>
+            <ThemedImage
+              sources={{
+                light: useBaseUrl("/img/docs/business-alerting/logo.svg"),
+                dark: useBaseUrl("/img/docs/business-alerting/logo.dark.svg"),
+              }}
+              width="50%"
+              className={styles.headerImage}
+            />
           </div>
           <div className="col col--7">
             <h2 className={clsx("hero__title")}>PulseBI Alert</h2>
@@ -234,16 +230,14 @@ const Main = ({ siteConfig }) => (
             </p>
           </div>
           <div className="col col--5 text--center">
-            <a href="/blog/">
-              <ThemedImage
-                sources={{
-                  light: useBaseUrl("/img/docs/chronicles/logo.svg"),
-                  dark: useBaseUrl("/img/docs/chronicles/logo.dark.svg"),
-                }}
-                width="50%"
-                className={styles.headerImage}
-              />
-            </a>
+            <ThemedImage
+              sources={{
+                light: useBaseUrl("/img/docs/chronicles/logo.svg"),
+                dark: useBaseUrl("/img/docs/chronicles/logo.dark.svg"),
+              }}
+              width="50%"
+              className={styles.headerImage}
+            />
           </div>
         </div>
       </div>
@@ -252,16 +246,14 @@ const Main = ({ siteConfig }) => (
       <div className="container margin-vert--md">
         <div className="row align-items-center">
           <div className="col col--5 text--center">
-            <a href="/blog/">
-              <ThemedImage
-                sources={{
-                  light: useBaseUrl("/img/docs/insight/logo.svg"),
-                  dark: useBaseUrl("/img/docs/insight/logo.dark.svg"),
-                }}
-                width="50%"
-                className={styles.headerImage}
-              />
-            </a>
+            <ThemedImage
+              sources={{
+                light: useBaseUrl("/img/docs/insight/logo.svg"),
+                dark: useBaseUrl("/img/docs/insight/logo.dark.svg"),
+              }}
+              width="50%"
+              className={styles.headerImage}
+            />
           </div>
           <div className="col col--7">
             <h2 className={clsx("hero__title")}>PulseBI Insight</h2>
@@ -294,16 +286,14 @@ const Main = ({ siteConfig }) => (
             </p>
           </div>
           <div className="col col--5 text--center">
-            <a href="/blog/">
-              <ThemedImage
-                sources={{
-                  light: useBaseUrl("/img/docs/sphere/logo.svg"),
-                  dark: useBaseUrl("/img/docs/sphere/logo.dark.svg"),
-                }}
-                width="50%"
-                className={styles.headerImage}
-              />
-            </a>
+            <ThemedImage
+              sources={{
+                light: useBaseUrl("/img/docs/sphere/logo.svg"),
+                dark: useBaseUrl("/img/docs/sphere/logo.dark.svg"),
+              }}
+              width="50%"
+              className={styles.headerImage}
+            />
           </div>
         </div>
       </div>

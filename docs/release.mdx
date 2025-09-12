@@ -11,14 +11,51 @@ import TabItem from "@theme/TabItem";
 Welcome to the release notes for the Business Intelligence platform for Grafana, developed by Volkov Labs to elevate your analytics capabilities.
 
 <Tabs
-  defaultValue="v3"
+  defaultValue="v4"
   values={[
+    { label: "Version 4", value: "v4" },
     { label: "Version 3", value: "v3" },
     { label: "Version 2", value: "v2" },
   ]}
 >
-  <TabItem value="v3">
+  <TabItem value="v4">
+:::info Summary
+This major release introduces groundbreaking updates to PulseBI Studio and Engine, focusing on enhanced user experience, advanced security measures, and significant performance improvements.
+
+Key features include revamped alert and reporting capabilities, streamlined UI workflows, and modernized engine architecture, ensuring greater efficiency and scalability for all users.
+:::
+
+:::warning Breaking Changes
+
+- **Community Token Update:** The Community Token has been refreshed for this major release. Update your configurations to ensure seamless compatibility with the new token structure.
+- **Engine API:** Studio now supports only Engine 4.0.0. Refer to the updated OpenAPI specification for detailed changes and ensure full integration with the latest API standards.
+  :::
+
+## Studio 4.0.0
+
+- **Alerts:** Added functionality to copy alerts to another engine, simplifying cross-environment management of alert configurations.
+- **Alert Evaluations:** Enhanced visibility by displaying selected field thresholds and threshold units, offering greater precision in alert customization.
+- **Report Details:** Now display failed reports in history, providing better visibility into reporting issues for quick resolution.
+- **Actions Enhancements:** Display alerts and reports linked to actions, enabling contextual tracking and improved decision-making.
+- **Auto Update:** Moved Auto-update logic to the Home screen for easier access and a more intuitive user experience.
+- **Organizations:** Display pending users in Organization settings, ensuring streamlined user management for administrators.
+
+## Engine 4.0.0
+
+- **AI Interactivity:** Introduced MCP server integration for enhanced AI-driven insights and smarter data processing.
+- **Renderer Microservice:** Added renderer JWT authentication for improved security and safer data rendering workflows.
+- **Compatibility with Previous Versions:** Removed Feature Flags to ensure a cleaner architecture.
+- **Refactoring:** Refactored modules and optimized performance for faster processing and a more responsive engine.
+- **Dashboards:** Improved annotations scopes and permissions, providing granular control over dashboard interactions.
+- **Security:** Enhanced interaction with security fields to ensure robust protection of sensitive data and user information.
+
+<BlogPost id="pulsebi-4.0.0" />
+
+</TabItem>
+<TabItem value="v3">
+
 ## 3.8.0 (2025-08-06)
+
 :::info Summary
 This release brings significant advancements to Business Intelligence platform with enhanced alert and report management, improved performance optimizations, and user-friendly UI updates. It also introduces new scheduling flexibility, streamlined engine maintenance capabilities, and updated security features, ensuring a more efficient and robust experience for users.
 :::

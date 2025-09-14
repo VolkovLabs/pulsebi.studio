@@ -16,13 +16,9 @@ export const PRESETS: PresetConfig[] = [
       blog: {
         postsPerPage: "ALL", // Display all posts on a single page
         blogSidebarCount: 0, // Disable blog sidebar
-        showReadingTime: false, // Hide reading time estimates
+        showReadingTime: true, // Hide reading time estimates
         onUntruncatedBlogPosts: "ignore", // Ignore untruncated posts warnings
         onInlineAuthors: "ignore", // Ignore inline authors warnings
-      },
-      gtag: {
-        trackingID: process.env.GTAG || "G-", // Google Analytics tracking ID with fallback
-        anonymizeIP: true, // Enable IP anonymization for privacy
       },
       theme: {
         customCss: require.resolve("../src/css/custom.css"), // Custom CSS file for theming

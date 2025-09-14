@@ -37,7 +37,6 @@ PulseBI Platform 4.0.0 introduces a host of powerful features and improvements. 
 - **Alert Evaluations:** Gain precision with visible field thresholds and units.
 - **Report Details:** Track failed reports in history for faster troubleshooting.
 - **Actions Enhancements:** View linked alerts and reports for better context.
-- **AI Interactivity:** Leverage MCP server integration for smarter insights.
 - **Auto Update:** Access updates directly from the Home screen.
 - **Organizations:** Manage pending users with ease in Organization settings.
 - **Renderer Microservice:** Strengthen security with JWT authentication.
@@ -52,33 +51,64 @@ Let’s explore each of these innovations in detail to understand how they can t
 
 Managing alerts across multiple environments has never been easier. With PulseBI Studio, you can now copy alerts to another engine with just a few clicks. This feature simplifies configuration management, saves time, and ensures consistency across your systems, whether you're scaling operations or testing in different environments.
 
+<Image
+  title="PulseBI Studio allows to copy alert from one engine to another."
+  src="/img/blog/2025-09-10-pulsebi-4.0.0/alert-copy.gif"
+/>
+
 ## Enhanced Alert Evaluations
 
 Precision is key when it comes to alerts. We’ve added visibility to selected field thresholds and threshold units, empowering you to customize alerts with greater accuracy. This update ensures that your alerts are tailored to your specific needs, reducing noise and focusing on what truly matters.
+
+<Image
+  title="Alert Evaluations displays units, thresholds and color rows based on the panel or anomaly detection configuration."
+  src="/img/blog/2025-09-10-pulsebi-4.0.0/alert-evaluation.png"
+/>
 
 ## Improved Report Details Visibility
 
 Reporting issues can slow down critical workflows. Studio now displays failed reports in your history, giving you clear insights into what went wrong. This transparency allows for quicker resolution, ensuring your reporting processes remain reliable and efficient.
 
+<Image
+  title="Improved Reports History displays failed reports along with successfully generated."
+  src="/img/blog/2025-09-10-pulsebi-4.0.0/reports.png"
+/>
+
 ## Contextual Actions Enhancements
 
 Understanding the relationships between alerts, reports, and actions is crucial for effective decision-making. This release introduces the ability to view alerts and reports linked to specific actions, providing valuable context and enabling you to track dependencies with ease.
 
-## AI-Powered Interactivity with MCP Server Integration
-
-Unlock the power of AI with our new MCP server integration. PulseBI Engine leverages AI-driven insights to enhance data processing, offering smarter recommendations and automation. This feature helps you uncover hidden patterns and make data-driven decisions faster than ever before.
+<Image
+  title="Linked Alert Rules for the specific action can be easily identified in the PulseBI Studio."
+  src="/img/blog/2025-09-10-pulsebi-4.0.0/linked-actions.png"
+/>
 
 ## Seamless Auto Updates from the Home Screen
 
 Keeping your platform up-to-date should be effortless. We’ve moved the Auto Update logic to the Home screen, making it more accessible and intuitive. Stay current with the latest features and security patches without navigating through complex menus.
 
+<Image
+  title="Auto-updates are disabled by default for better compatibility and can be updated manually from the Home page."
+  src="/img/blog/2025-09-10-pulsebi-4.0.0/home.png"
+/>
+
 ## Simplified Organization Management
 
 Administrators can now view pending users directly in Organization settings. This update streamlines user management, ensuring that onboarding and access control are handled efficiently, even in large teams or complex organizational structures.
 
+<Image
+  title="Pending users are displayed along side with active users in the organizations."
+  src="/img/blog/2025-09-10-pulsebi-4.0.0/organization.png"
+/>
+
 ## Secure Renderer Microservice with JWT Authentication
 
 Security is a top priority. PulseBI Engine introduces JWT authentication for the renderer microservice, adding an extra layer of protection to your data rendering workflows. This ensures that sensitive information remains secure while maintaining seamless performance.
+
+<Image
+  title="JWT token for Renderer Microserver configured in Grafana Environment configuration."
+  src="/img/blog/2025-09-10-pulsebi-4.0.0/jwt-token.png"
+/>
 
 ## Cleaner Architecture with Removed Feature Flags
 
@@ -87,6 +117,11 @@ To simplify compatibility and maintain a robust system, we’ve removed Feature 
 ## Performance Boost Through Refactoring
 
 Speed and responsiveness are at the heart of PulseBI. We’ve refactored key modules and optimized the engine for faster processing. These behind-the-scenes improvements translate to a more fluid user experience, even when handling large datasets or complex workflows.
+
+<Image
+  title="PulseBI Studio interacts with PulseBI Engine and cache data for faster performance and better user experience."
+  src="/img/docs/business-studio.gif"
+/>
 
 ## Robust Security Enhancements
 
@@ -109,10 +144,10 @@ Our MacOS and Windows installers are digitally signed, notarized, and built via 
 Choose the installer for your system and unlock the power of PulseBI Platform 4.0.0:
 
 - **MacOS**:
-  - [Apple Disk Image (Apple Silicon)](https://github.com/VolkovLabs/pulsebi/releases/download/v4.0.0/PulseBI.Studio-4.0.0-arm64.dmg)
-  - [Apple Disk Image (Intel x86)](https://github.com/VolkovLabs/pulsebi/releases/download/v4.0.0/PulseBI.Studio-4.0.0-x64.dmg)
-  - [ZIP (Apple Silicon)](https://github.com/VolkovLabs/pulsebi/releases/download/v4.0.0/PulseBI.Studio-darwin-arm64-4.0.0.zip)
-  - [ZIP (Intel x86)](https://github.com/VolkovLabs/pulsebi/releases/download/v4.0.0/PulseBI.Studio-darwin-x64-4.0.0.zip)
+  - [Apple Disk Image (Silicon)](https://github.com/VolkovLabs/pulsebi/releases/download/v4.0.0/PulseBI.Studio-4.0.0-arm64.dmg)
+  - [Apple Disk Image (Intel)](https://github.com/VolkovLabs/pulsebi/releases/download/v4.0.0/PulseBI.Studio-4.0.0-x64.dmg)
+  - [ZIP (Silicon)](https://github.com/VolkovLabs/pulsebi/releases/download/v4.0.0/PulseBI.Studio-darwin-arm64-4.0.0.zip)
+  - [ZIP (Intel)](https://github.com/VolkovLabs/pulsebi/releases/download/v4.0.0/PulseBI.Studio-darwin-x64-4.0.0.zip)
 - **Windows**:
   - [Executable](https://github.com/VolkovLabs/pulsebi/releases/download/v4.0.0/PulseBI.Studio-4.0.0.Setup.exe)
 - **Linux**:

@@ -137,7 +137,16 @@ const Main = ({ siteConfig }) => (
       className="container margin-vert--xl text--center"
       id="pulsebi-studio"
     >
-      <h2 className="hero__title">Manage Your Analytics Core</h2>
+      <h2 className="hero__title">
+        <ThemedImage
+          sources={{
+            light: useBaseUrl("/img/docs/business-studio/logo.svg"),
+            dark: useBaseUrl("/img/docs/business-studio/logo.dark.svg"),
+          }}
+          width="64px"
+        />
+        &nbsp; Manage Your Analytics Core
+      </h2>
       <p className="hero__subtitle margin-vert--md">
         PulseBI Studio is the management hub for configuring the platform’s
         analytics capabilities.
@@ -187,34 +196,44 @@ const Main = ({ siteConfig }) => (
         </div>
       </div>
     </section>
-    <section className="hero" id="pulsebi-alert">
-      <div className="container margin-vert--md">
-        <div className="row align-items-center">
-          <div className="col col--5 text--center">
-            <ThemedImage
-              sources={{
-                light: useBaseUrl("/img/docs/business-alerting/logo.svg"),
-                dark: useBaseUrl("/img/docs/business-alerting/logo.dark.svg"),
-              }}
-              width="50%"
-              className={styles.headerImage}
-            />
-          </div>
-          <div className="col col--7">
-            <h2 className={clsx("hero__title")}>PulseBI Alert</h2>
-            <p className="hero__subtitle margin-vert--md">
-              PulseBI Alert delivers real-time notifications to keep teams
-              responsive to critical data events.
-            </p>
-            <p className="hero__subtitle margin-vert--md">
-              Configured via PulseBI Studio, it sends query-based alerts with
-              Grafana panel screenshots through channels like Slack, email,
-              Grafana Incident, or KeepHQ.
-            </p>
-          </div>
-        </div>
-      </div>
+
+    <section
+      className="container margin-vert--xl text--center"
+      id="pulsebi-alert"
+    >
+      <h2 className="hero__title">
+        <ThemedImage
+          sources={{
+            light: useBaseUrl("/img/docs/business-alerting/logo.svg"),
+            dark: useBaseUrl("/img/docs/business-alerting/logo.dark.svg"),
+          }}
+          width="64px"
+        />
+        &nbsp; Real-Time Notifications
+      </h2>
+      <p className="hero__subtitle margin-vert--md">
+        PulseBI Alert delivers real-time notifications to keep teams responsive
+        to critical data events.
+      </p>
+      <p className="hero__subtitle margin-vert--md">
+        <a href="https://github.com/VolkovLabs/pulsebi/releases">
+          <ThemedImage
+            sources={{
+              light: useBaseUrl("/img/docs/alerting.png"),
+              dark: useBaseUrl("/img/docs/alerting.dark.png"),
+            }}
+            alt={siteConfig.tagline}
+            className={styles.studio}
+          />
+        </a>
+      </p>
+      <p className="hero__subtitle margin-vert--md">
+        Configured via PulseBI Studio, it sends query-based alerts with Grafana
+        panel screenshots through channels like Slack, email, Grafana Incident,
+        or KeepHQ.
+      </p>
     </section>
+
     <section className="hero hero--primary" id="pulsebi-chronicles">
       <div className="container margin-vert--md">
         <div className="row align-items-center">
@@ -242,34 +261,44 @@ const Main = ({ siteConfig }) => (
         </div>
       </div>
     </section>
-    <section className="hero" id="pulsebi-insight">
-      <div className="container margin-vert--md">
-        <div className="row align-items-center">
-          <div className="col col--5 text--center">
-            <ThemedImage
-              sources={{
-                light: useBaseUrl("/img/docs/insight/logo.svg"),
-                dark: useBaseUrl("/img/docs/insight/logo.dark.svg"),
-              }}
-              width="50%"
-              className={styles.headerImage}
-            />
-          </div>
-          <div className="col col--7">
-            <h2 className={clsx("hero__title")}>PulseBI Insight</h2>
-            <p className="hero__subtitle margin-vert--md">
-              PulseBI Insight brings AI-driven intelligence to the platform,
-              leveraging LLM models from xAI and Anthropic to deliver
-              descriptive analytics and conversational queries.
-            </p>
-            <p className="hero__subtitle margin-vert--md">
-              It supports natural language questions and automated insights for
-              alerts and reports.
-            </p>
-          </div>
-        </div>
-      </div>
+
+    <section
+      className="container margin-vert--xl text--center"
+      id="pulsebi-insight"
+    >
+      <h2 className="hero__title">
+        <ThemedImage
+          sources={{
+            light: useBaseUrl("/img/docs/insight/logo.svg"),
+            dark: useBaseUrl("/img/docs/insight/logo.dark.svg"),
+          }}
+          width="64px"
+        />
+        &nbsp; AI-Driven Intelligence
+      </h2>
+      <p className="hero__subtitle margin-vert--md">
+        PulseBI Insight brings AI-driven intelligence to the platform,
+        leveraging LLM models from xAI and Anthropic to deliver descriptive
+        analytics and conversational queries.
+      </p>
+      <p className="hero__subtitle margin-vert--md">
+        <a href="https://github.com/VolkovLabs/pulsebi/releases">
+          <ThemedImage
+            sources={{
+              light: useBaseUrl("/img/docs/slack-notification.png"),
+              dark: useBaseUrl("/img/docs/slack-notification.png"),
+            }}
+            alt={siteConfig.tagline}
+            className={styles.studio}
+          />
+        </a>
+      </p>
+      <p className="hero__subtitle margin-vert--md">
+        It supports natural language questions and automated insights for alerts
+        and reports.
+      </p>
     </section>
+
     <section className="hero hero--primary" id="pulsebi-sphere">
       <div className="container margin-vert--md">
         <div className="row align-items-center">

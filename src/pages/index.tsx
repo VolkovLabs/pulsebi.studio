@@ -164,9 +164,9 @@ const Main = ({ siteConfig }) => (
         </a>
       </p>
       <p className="hero__subtitle margin-vert--md">
-        It enables users to manage PulseBI Engine settings, create alert rules
-        for PulseBI Alert, and generate reports for PulseBI Chronicles,
-        streamlining analytics workflows.
+        It enables users to manage Engine settings, create alert rules for
+        Alert, and generate reports for Chronicles, streamlining analytics
+        workflows.
       </p>
     </section>
     <section className="hero hero--primary" id="pulsebi-engine">
@@ -175,8 +175,8 @@ const Main = ({ siteConfig }) => (
           <div className="col col--7">
             <h2 className={clsx("hero__title")}>PulseBI Engine</h2>
             <p className="hero__subtitle margin-vert--md">
-              The PulseBI Engine is the heart of the platform, powering
-              real-time data processing and query execution for all components.
+              The Engine is the heart of the platform, powering real-time data
+              processing and query execution for all components.
             </p>
             <p className="hero__subtitle margin-vert--md">
               It connects seamlessly to Grafana’s data sources, ensuring
@@ -228,9 +228,9 @@ const Main = ({ siteConfig }) => (
         </a>
       </p>
       <p className="hero__subtitle margin-vert--md">
-        Configured via PulseBI Studio, it sends query-based alerts with Grafana
-        panel screenshots through channels like Slack, email, Grafana Incident,
-        or KeepHQ.
+        Configured via Studio, it sends query-based alerts with Grafana panel
+        screenshots through channels like Slack, email, Grafana Incident, or
+        KeepHQ.
       </p>
     </section>
 
@@ -243,9 +243,9 @@ const Main = ({ siteConfig }) => (
               PulseBI Chronicles transforms data into compelling narratives.
             </p>
             <p className="hero__subtitle margin-vert--md">
-              Managed through PulseBI Studio, it generates interactive reports
-              with embedded Grafana visualizations, offering automated delivery
-              and storytelling tools.
+              Managed through Studio, it generates interactive reports with
+              embedded Grafana visualizations, offering automated delivery and
+              storytelling tools.
             </p>
           </div>
           <div className="col col--5 text--center">
@@ -295,7 +295,7 @@ const Main = ({ siteConfig }) => (
       </p>
       <p className="hero__subtitle margin-vert--md">
         It supports natural language questions and automated insights for alerts
-        and reports.
+        and reports through the MCP Server.
       </p>
     </section>
 
@@ -309,9 +309,9 @@ const Main = ({ siteConfig }) => (
               decision-making.
             </p>
             <p className="hero__subtitle margin-vert--md">
-              It integrates Grafana dashboards, PulseBI Alert notifications,
-              PulseBI Insight descriptive insights, and PulseBI Engine data for
-              a unified analytics experience.
+              It integrates Alert notifications, Chronicles storytelling tools,
+              Insight descriptive insights, and Engine data for a unified
+              analytics experience.
             </p>
           </div>
           <div className="col col--5 text--center">
